@@ -58,7 +58,9 @@ The goal of this project is to classify handwritten digits (0–9) using a CNN. 
     - Generate an API key from your Comet.ml account.
     - Replace the placeholder COMET_API_KEY in the notebook with your API key.
 
-### Project Workflow
+---
+
+## Project Workflow
 1. Loading the Dataset
     - The MNIST dataset is loaded using TensorFlow's tf.keras.datasets.mnist module. It contains:
         1. **Training set**: 60,000 images.
@@ -98,7 +100,9 @@ The goal of this project is to classify handwritten digits (0–9) using a CNN. 
             - Normalized to [0, 1].
         3. The model predicts the digit, and the result is displayed.
 
-### How to Run
+---
+
+## How to Run
 1. Open the Jupyter Notebook:
     
     jupyter notebook cnn_digits.ipynb
@@ -119,7 +123,9 @@ The goal of this project is to classify handwritten digits (0–9) using a CNN. 
 
 4. Run the prediction cell.
 
-### Results
+---
+
+## Results
 1. Fully Connected Neural Network (FCNN):
 
     - Training Accuracy: ~92%.
@@ -132,7 +138,9 @@ The goal of this project is to classify handwritten digits (0–9) using a CNN. 
 
 The CNN outperforms the FCNN due to its ability to extract spatial features from images.
 
-### Ackowledgments
+---
+
+## Ackowledgments
 - MNIST Dataset: Yann LeCun's MNIST Database.
 - TensorFlow: For providing tools to build and train neural networks.
 - Comet.ml: For experiment tracking and visualization.
