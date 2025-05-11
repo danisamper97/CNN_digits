@@ -4,23 +4,6 @@ This project demonstrates how to build, train, and evaluate a **Convolutional Ne
 
 ---
 
-## Table of Contents
-1. [Overview](#overview)
-2. [Features](#features)
-3. [Setup and Installation](#setup-and-installation)
-4. [Project Workflow](#project-workflow)
-    - [1. Loading the Dataset](#1-loading-the-dataset)
-    - [2. Data Preprocessing](#2-data-preprocessing)
-    - [3. Building the Models](#3-building-the-models)
-    - [4. Training the Models](#4-training-the-models)
-    - [5. Evaluating the Models](#5-evaluating-the-models)
-    - [6. Testing on Custom Images](#6-testing-on-custom-images)
-5. [How to Run](#how-to-run)
-6. [Results](#results)
-7. [Acknowledgments](#acknowledgments)
-
----
-
 ## Overview
 The goal of this project is to classify handwritten digits (0–9) using a CNN. The MNIST dataset, which contains 28x28 grayscale images of digits, is used for training and testing. The project also includes functionality to test the model on custom handwritten digit images.
 
@@ -93,35 +76,6 @@ The goal of this project is to classify handwritten digits (0–9) using a CNN. 
 
 6. Testing on Custom Images
     - Users can test the CNN on their own handwritten digit images:
-        1. Provide an image file (e.g., digit3.jpeg).
-        2. The image is preprocessed:
-            - Resized to 28x28.
-            - Colors inverted (black background to white).
-            - Normalized to [0, 1].
-        3. The model predicts the digit, and the result is displayed.
-
----
-
-## How to Run
-1. Open the Jupyter Notebook:
-    
-    jupyter notebook cnn_digits.ipynb
-
-2. Run the cells step by step:
-
-    - Load the dataset.
-    - Preprocess the data.
-    - Train the models.
-    - Evaluate the models.
-    - Test on custom images.
-
-3. To test on your own handwritten digit:
-
-    - Save your digit as a grayscale image (e.g., digit3.jpeg).
-    - Update the file path in the notebook:
-        img = cv2.imread("digit3.jpeg", cv2.IMREAD_GRAYSCALE)
-
-4. Run the prediction cell.
 
 ---
 
